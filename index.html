@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pranav Kadam — Portfolio</title>
+  <meta name="description" content="Pranav Kadam — Software Developer Portfolio & Contact." />
+  <meta name="author" content="Pranav Kadam" />
+
+  <!-- SEO / Open Graph -->
+  <meta property="og:title" content="Pranav Kadam — Portfolio" />
+  <meta property="og:description" content="Portfolio & contact page for Pranav Kadam." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/photo.jpg" />
+
+  <link rel="canonical" href="https://bhaukadam-007.github.io/" />
+
+  <!-- Structured data for search engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pranav Kadam",
+    "url": "https://bhaukadam-007.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/bhaukadam",
+      "https://github.com/bhaukadam-007"
+    ],
+    "image": "https://bhaukadam-007.github.io/photo.jpg",
+    "jobTitle": "Software Developer"
+  }
+  </script>
+
+  <style>
+    :root{--bg:#0f172a;--card:#1e293b;--muted:#94a3b8;--accent:#06b6d4}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:"Inter",system-ui,Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#0f172a 0%,#1e293b 100%);color:#e2e8f0;line-height:1.6;}
+    .container{max-width:1080px;margin:auto;padding:40px 20px;display:grid;grid-template-columns:300px 1fr;gap:30px;}
+    .card{background:rgba(255,255,255,0.03);border-radius:16px;padding:24px;box-shadow:0 8px 30px rgba(0,0,0,0.4);}
+    .profile{text-align:center}
+    .avatar{width:180px;height:180px;border-radius:50%;object-fit:cover;border:4px solid var(--accent);margin-bottom:16px}
+    h1{font-size:26px;margin-bottom:6px}
+    p.lead{color:var(--muted);margin-bottom:16px;font-size:15px}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:16px}
+    .tag{background:rgba(255,255,255,0.06);padding:6px 12px;border-radius:999px;font-size:13px;color:var(--muted)}
+    .btn{display:inline-block;background:var(--accent);color:#0f172a;padding:10px 16px;border-radius:10px;font-weight:600;text-decoration:none;margin-top:12px}
+    .socials{margin-top:18px}
+    .socials a{color:var(--muted);margin:0 8px;text-decoration:none;font-size:15px}
+    .section{margin-bottom:24px}
+    h2{font-size:20px;margin-bottom:10px;color:#f1f5f9}
+    ul{list-style:disc inside;color:#cbd5e1}
+    code.small{background:rgba(255,255,255,0.08);padding:4px 6px;border-radius:6px;font-size:13px}
+    footer{text-align:center;margin-top:24px;color:var(--muted);font-size:13px}
+    @media(max-width:860px){.container{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <!-- Left profile card -->
+    <aside class="card profile">
+      <img class="avatar" src="/photo.jpg" alt="Pranav Kadam photo" />
+      <h1>Pranav Kadam</h1>
+      <p class="lead">Software Developer • Web Enthusiast • Problem Solver</p>
+      <div class="tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">React</span>
+      </div>
+      <a class="btn" href="mailto:bhaukadam537@gmail.com">📧 Contact Me</a>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/bhaukadam" target="_blank">LinkedIn</a>
+        <a href="https://github.com/bhaukadam-007" target="_blank">GitHub</a>
+      </div>
+    </aside>
+
+    <!-- Right content card -->
+    <section class="card">
+      <div class="section">
+        <h2>About Me</h2>
+        <p>Hi, I’m <strong>Pranav Kadam</strong>. I enjoy building clean, responsive websites and solving real-world problems with code. My focus is on creating practical tools that make life easier. I’m passionate about learning new technologies and improving my skills every day.</p>
+      </div>
+
+      <div class="section">
+        <h2>Featured Projects</h2>
+        <ul>
+          <li><strong>Smart City Complaint App</strong> — A web app for citizens to report civic issues with location + photo support.</li>
+          <li><strong>Habit Tracker</strong> — A minimal app to build and track habits with reminders.</li>
+          <li><strong>Portfolio Website</strong> — This very site, showcasing my work and skills.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Get Found on Google</h2>
+        <ol>
+          <li>Deploy this page to GitHub Pages: <code class="small">bhaukadam-007.github.io</code>.</li>
+          <li>Add this link to your LinkedIn profile and share it publicly.</li>
+          <li>Create a Google People Card from your mobile by searching <em>“add me to search”</em>.</li>
+          <li>Request indexing via Google Search Console for faster results.</li>
+        </ol>
+      </div>
+
+      <div class="section">
+        <h2>Next Steps</h2>
+        <ul>
+          <li>Add your real profile photo as <code class="small">photo.jpg</code> in the repo.</li>
+          <li>Keep your LinkedIn updated and connect this portfolio link there.</li>
+          <li>Expand your projects section with GitHub repo/demo links.</li>
+        </ul>
+      </div>
+
+      <footer>© 2025 Pranav Kadam — Portfolio built with ❤</footer>
+    </section>
+  </main>
+</body>
+</html>
